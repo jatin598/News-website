@@ -1,0 +1,45 @@
+body{
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+.container{
+  max-width: 1000px;
+  margin: auto;
+}
+.header{
+  background:black;
+  text-align: center;
+  padding: 10px 0px;
+  color: white;
+}
+.header p{
+  font-size: 14px;
+}
+.header-nav{
+  background: #be2819;
+}
+.header-nav a{
+  color: white;
+  text-decoration: none;
+  font-size: 12px;
+  padding: 3px 6px;
+  display: inline-block;
+  font-weight: bold;
+}
+.header-nav a.active, .header-nav a:hover{
+  color: black;
+  background: white;
+}
+.tile{
+  display: flex;
+}
+.tile img{
+  width: 141px;
+  height: 85px;
+  margin-right: 16px;
+}
+.tile h2{
+  margin-top: 0;
+  margin-bottom: 8px;
+}
